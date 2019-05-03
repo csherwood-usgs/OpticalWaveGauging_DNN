@@ -17,4 +17,4 @@ dependencies:
   - scikit-image
   - scikit-learn
   - requests
-  - tensorflow==1.11.0
+  - tensorflow-gpu==1.11.0

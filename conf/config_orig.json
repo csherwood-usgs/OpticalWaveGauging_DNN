@@ -2,8 +2,8 @@
   "samplewise_std_normalization" : true,
   "samplewise_center"  : true,
   "input_image_format" : "jpg",
-  "input_csv_file"     : "bcam_list.csv", 
-  "category"           : "hs",
+  "input_csv_file"     : "snap-training-dataset.csv", 
+  "category"           : "H",
 
   "horizontal_flip"    : false,
   "vertical_flip"      : false,
@@ -22,7 +22,5 @@
   "dropout_rate"       : 0.5,
   "epsilon"            : 0.0001,
   "min_lr"             : 0.0001,
-  "factor"             : 0.8,
-  "sitename"           : "Sandwich_CamB",
-  "image_dir"          : "images"
+  "factor"             : 0.8
 }
